@@ -2,6 +2,12 @@
   "name": "@markdown-to-pdf-kit/web",
   "version": "0.0.1",
   "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "vercel-build": "next build"
+  },
   "dependencies": {
     "@nx/next": "^22.5.1",
     "next": "~16.0.1",
