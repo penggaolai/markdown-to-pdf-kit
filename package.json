@@ -16,7 +16,7 @@
     "@nx/eslint": "22.5.1",
     "@nx/eslint-plugin": "22.5.1",
     "@nx/js": "22.5.1",
-    "@nx/next": "22.5.1",
+    "@nx/next": "^22.5.1",
     "@nx/workspace": "22.5.1",
     "@swc-node/register": "~1.11.1",
     "@swc/cli": "~0.8.0",
