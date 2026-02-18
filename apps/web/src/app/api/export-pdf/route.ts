@@ -50,9 +50,14 @@ export async function POST(req: Request) {
       return Response.json({ error: 'markdown is required' }, { status: 400 });
     }
 
+    const executablePath = await chromium.executablePath(
+      process.env.CHROMIUM_PACK_URL ||
+        'https://github.com/Sparticuz/chromium/releases/download/v138.0.2/chromium-v138.0.2-pack.tar'
+    );
+
     browser = await puppeteer.launch({
       args: chromium.args,
-      executablePath: await chromium.executablePath(),
+      executablePath,
       headless: true,
     });
 
