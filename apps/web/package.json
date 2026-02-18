@@ -10,12 +10,15 @@
   },
   "dependencies": {
     "@nx/next": "^22.5.1",
-    "md-to-pdf": "^5.2.5",
+    "@sparticuz/chromium": "^138.0.2",
+    "markdown-it": "^14.1.0",
     "next": "~16.0.1",
+    "puppeteer-core": "^24.23.1",
     "react": "^19.0.0",
     "react-dom": "^19.0.0"
   },
   "devDependencies": {
+    "@types/markdown-it": "^14.1.2",
     "@types/react": "^19.0.0",
     "@types/react-dom": "^19.0.0",
     "typescript": "~5.9.2"
